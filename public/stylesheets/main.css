@@ -1,0 +1,68 @@
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .gen-form {
+        padding: 5px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .generate-button, .download-button {
+        width: 100%;
+    }
+}
+
+.container {
+    background-color: #1C1D1E;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    /* border-radius: 20px; */
+}
+
+.gen-form {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+
+input {
+    width: 600px;
+    border: 1px solid #6A5ACD;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #1C1D1E;
+    color: white;
+}
+
+.generate-button, .download-button {
+    width: 150px;
+    padding: 10px;
+    background-color: #7B68EE;
+    border: 1px solid #6A5ACD;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px; /* Add margin to separate the buttons */
+}
+
+.generate-button span, .download-button span {
+    color: white;
+    margin-right: 5px;
+}
+
+/* Center the download button */
+.download-button {
+    margin-left: auto;
+    margin-right: 45%;
+    margin-top: 2%;
+}
